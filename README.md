@@ -10,5 +10,6 @@ When the `<input>` is used in React or Vue.js, `input.value` is not working. Thi
 ## Example
 
 ```javascript
-input.nativeValue('example');
+const input = document.querySelector('#username');
+input.nativeValue('username');
 ```
